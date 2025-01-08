@@ -2,7 +2,7 @@
 
 // #include <stdio.h>
 
-// int main(){
+// void putStringGetSize(){
 //   char ch;
 //   int count = 0;
 //   printf("Enter the string after finish press 'Enter': ");
@@ -10,6 +10,10 @@
 //     count++;
 //   }
 //   printf("String length including space(s): %d", count);
+// }
+
+// int main(){
+//   putStringGetSize();
 //   return 0;
 // }
 
