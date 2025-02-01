@@ -1,21 +1,21 @@
 // ================================ V1 ================================
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// void putStringGetSize(){
-//   char ch;
-//   int count = 0;
-//   printf("Enter the string after finish press 'Enter': ");
-//   while((ch = getchar()) != '\n'){
-//     count++;
-//   }
-//   printf("String length including space(s): %d", count);
-// }
+void putStringGetSize(){
+  char ch;
+  int count = 0;
+  printf("Enter the string after finish press 'Enter': ");
+  while((ch = getchar()) != '\n'){
+    count++;
+  }
+  printf("String length including space(s): %d", count);
+}
 
-// int main(){
-//   putStringGetSize();
-//   return 0;
-// }
+int main(){
+  putStringGetSize();
+  return 0;
+}
 
 
 // ================================ V2 ================================
